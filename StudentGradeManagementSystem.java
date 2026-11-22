@@ -21,7 +21,7 @@ public class StudentGradeManagementSystem {
     static Scanner input = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		 System.out.println("Welcome please type the number for one of the following options");
+		 System.out.println("Welcome please type the number for one of the following options \n");
 	        int choice;
 	        do {
 	            printMenu();
@@ -53,7 +53,7 @@ public class StudentGradeManagementSystem {
 	//Method to read the choices
 	
 	public static int readChoice() {			
-		System.out.print("Please enter a number for one of the following options: ");
+		System.out.print("\nPlease enter a number for one of the following options: ");
         if (!input.hasNextInt()) {
             input.nextLine();          // discard the invalid text
             return -1;
