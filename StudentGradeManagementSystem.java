@@ -33,7 +33,7 @@ public class StudentGradeManagementSystem {
 	                case 4: showAverage(); break;
 	                case 5: showHighestLowest(); break;
 	                case 6: System.out.println("Goodbye!"); break;
-	                default: System.out.println("Invalid choice! Please enter a number between 1 and 6.");
+	                default: System.out.println("\nInvalid choice! Please enter a number between 1 and 6.");
 	            }
 	            System.out.println();
 	        } while (choice != 6);
@@ -54,12 +54,8 @@ public class StudentGradeManagementSystem {
 	
 	public static int readChoice() {			
 		System.out.print("\nPlease enter a number for one of the following options: ");
-        if (!input.hasNextInt()) {
-            input.nextLine();          // discard the invalid text
-            return -1;
-        }
         int choice = input.nextInt();
-        input.nextLine();              // consume the newline left by nextInt()
+        input.nextLine();              // consume the new line left by nextInt()
         return choice;
     }
 	
