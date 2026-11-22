@@ -15,3 +15,5 @@ calculate the class average and find the highest and lowest grades.
   javac StudentGradeManagementSystem.java
   java StudentGradeManagementSystem
 
+Or import the file into Eclipse and run it.  
+
