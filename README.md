@@ -12,8 +12,8 @@ in parallel 1D arrays (max 50 students). It can add students, display all record
 calculate the class average and find the highest and lowest grades.
 
 ## How to Compile and Run
-  javac StudentGradeManagementSystem.java
-  java StudentGradeManagementSystem
+  * javac StudentGradeManagementSystem.java
+  * java StudentGradeManagementSystem
 
 Or import the file into Eclipse and run it.  
 
